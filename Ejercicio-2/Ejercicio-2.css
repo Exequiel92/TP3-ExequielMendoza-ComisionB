@@ -1,0 +1,82 @@
+/* css CREADO CON IA */
+
+/* Estilo general del body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor del formulario */
+form {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+/* Título */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Etiquetas */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Texto en <p> en cursiva */
+p {
+  font-style: italic;
+  color: #555;
+  font-size: 15px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Lista de frutas */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #444;
+  text-align: center;
+}
