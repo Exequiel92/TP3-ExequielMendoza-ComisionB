@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>➗ Calculadora</title>
+    <link rel="stylesheet" href="Ejercicio-1.css" />
+  </head>
+  <body>
+    <form id="formulario">
+      <div>
+        <h1>CALCULAR</h1>
+        <label for="primero">Primer número</label>
+        <br />
+        <br />
+        <input type="number" id="primero" name="primero" />
+        <br />
+        <br />
+      </div>
+      <div>
+        <label for="segundo">Segundo número</label>
+        <br />
+        <br />
+        <input type="number" id="segundo" name="segundo" />
+      </div>
+      <div>
+        <br />
+        <label for="opcion">Selecciona una operación</label>
+        <select id="opcion">
+          <br />
+          <br />
+          <option id="opcion" value="">SELECCIONAR</option>
+          <option id="opcion" value="suma">Suma</option>
+          <option id="opcion" value="resta">Resta</option>
+          <option id="opcion" value="multiplicacion">Multiplicación</option>
+          <option id="opcion" value="division">División</option>
+        </select>
+      </div>
+      <div>
+        <br />
+        <br />
+        <button type="submit" id="boton">Calcular</button>
+      </div>
+      <div>
+        <p id="resultado">El resultado es:</p>
+      </div>
+    </form>
+    <script src="Ejercicio-1.js"></script>
+  </body>
+</html>
