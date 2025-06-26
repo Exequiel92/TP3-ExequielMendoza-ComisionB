@@ -1,0 +1,54 @@
+/* css CREADO CON IA */
+
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título principal */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Botón */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Lista de tareas */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Ítems de la lista */
+li {
+  background-color: #e6ffe6;
+  border: 1px solid #b2d8b2;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #333;
+}
