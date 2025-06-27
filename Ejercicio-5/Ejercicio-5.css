@@ -1,0 +1,94 @@
+/* CSS GENERADA CON IA */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #222831, #393e46);
+  font-family: "Space Grotesk", sans-serif;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background: #2c2f34;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+  border: 2px solid #00adb5;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #00fff5;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
+}
+
+p {
+  margin: 15px 0 5px;
+  font-size: 16px;
+  color: #d1d1d1;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #393e46;
+  border: 2px solid #00adb5;
+  border-radius: 10px;
+  color: #eeeeee;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #00fff5;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #00adb5, #00fff5);
+  border: none;
+  border-radius: 12px;
+  color: #222831;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background: #555;
+  color: #999;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+p:last-of-type {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #00fff5;
+  font-weight: bold;
+}
