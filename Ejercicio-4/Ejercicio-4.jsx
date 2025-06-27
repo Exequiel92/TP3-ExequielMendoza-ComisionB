@@ -27,7 +27,6 @@ function Botones() {
       >
         Izquierdo
       </button>
-      -----
       <button
         onClick={clickDerecho}
         className="botonDerecho"

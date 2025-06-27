@@ -1,9 +1,11 @@
-/* css CREADO CON IA */
+/* CSS GENERADO CON IA */
 
-/* Estilo general */
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
+  background-color: #0d0d0d;
+  color: #00ff88;
+  font-family: "Share Tech Mono", monospace;
   margin: 0;
   padding: 40px;
   display: flex;
@@ -11,44 +13,49 @@ body {
   align-items: center;
 }
 
-/* Título principal */
+/* Título tipo consola */
 h1 {
-  color: #333;
+  font-size: 26px;
+  color: #00ff88;
+  text-shadow: 0 0 5px #00ff88;
   margin-bottom: 20px;
 }
 
-/* Botón */
+/* Botón con estilo retro */
 button {
   padding: 12px 24px;
+  background-color: transparent;
+  border: 2px solid #00ff88;
+  color: #00ff88;
   font-size: 16px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #00ff88;
+  color: #0d0d0d;
+  box-shadow: 0 0 10px #00ff88;
 }
 
-/* Lista de tareas */
+/* Lista */
 ul {
+  margin-top: 30px;
   list-style-type: none;
   padding: 0;
-  margin-top: 30px;
-  width: 80%;
-  max-width: 600px;
+  width: 100%;
+  max-width: 500px;
 }
 
 /* Ítems de la lista */
 li {
-  background-color: #e6ffe6;
-  border: 1px solid #b2d8b2;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 5px;
+  background-color: #1a1a1a;
+  border-left: 5px solid #00ff88;
+  padding: 10px 15px;
+  margin-bottom: 12px;
   font-size: 15px;
-  color: #333;
+  box-shadow: inset 0 0 5px #00ff88;
 }

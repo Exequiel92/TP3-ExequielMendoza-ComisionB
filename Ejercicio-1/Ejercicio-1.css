@@ -1,76 +1,91 @@
-/* css ELABORADO CON IA */
+/* CSS GENERADO CON IA */
 
-/* Estilos generales del body */
-h1 {
-  align-items: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
 body {
-  background-color: #f0f2f5;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8e1;
+  font-family: "Patrick Hand", cursive;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+  align-items: flex-start;
+  padding-top: 50px;
+  min-height: 100vh;
 }
 
 /* Contenedor del formulario */
 form {
-  background-color: #ffffff;
-  padding: 30px 40px;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  width: 350px;
+  background-color: #fff3cd;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 360px;
+  border: 2px dashed #f9a825;
 }
 
-/* Títulos y etiquetas */
-label,
-p {
-  font-weight: bold;
-  color: #333;
-  font-size: 14px;
+/* Títulos */
+h1 {
+  color: #d84315;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
 }
 
-/* Inputs y select */
+/* Etiquetas */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #5d4037;
+}
+
+/* Inputs */
 input[type="number"],
 select {
   width: 100%;
-  padding: 10px;
-  margin-top: 5px;
+  padding: 12px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
+  border: 2px solid #ffcc80;
+  border-radius: 12px;
+  background-color: #fff;
+  font-size: 16px;
   box-sizing: border-box;
-  transition: border-color 0.3s ease;
+  font-family: "Patrick Hand", cursive;
 }
 
-input[type="number"]:focus,
-select:focus {
-  border-color: #007bff;
-  outline: none;
+/* Select */
+select {
+  background-color: #fce4ec;
+  color: #6a1b9a;
 }
 
-/* Botón habilitado */
+/* Botón */
 button {
   width: 100%;
-  padding: 12px;
-  background-color: #007bff;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: bold;
   color: white;
+  background: linear-gradient(145deg, #ff6f00, #ffa000);
   border: none;
-  border-radius: 6px;
-  font-size: 16px;
+  border-radius: 30px;
+  box-shadow: 0 6px 12px rgba(255, 111, 0, 0.3);
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: transform 0.2s, background-color 0.3s;
+  font-family: "Patrick Hand", cursive;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #ff8f00;
+  transform: scale(1.05);
 }
 
 /* Botón deshabilitado */
 button:disabled {
   background-color: #ccc;
+  color: #666;
+  box-shadow: none;
   cursor: not-allowed;
 }
 
@@ -78,6 +93,7 @@ button:disabled {
 #resultado {
   margin-top: 20px;
   text-align: center;
-  font-size: 16px;
-  color: #006400;
+  font-size: 18px;
+  color: #2e7d32;
+  font-style: italic;
 }

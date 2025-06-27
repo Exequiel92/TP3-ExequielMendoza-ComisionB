@@ -1,82 +1,63 @@
-/* css CREADO CON IA */
+/* CSS GENERADO CON IA */
 
-/* Estilo general del body */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
   margin: 0;
   padding: 0;
+  height: 100vh;
+  background: radial-gradient(circle at top left, #fffde7, #ffe082);
+  color: #4e342e;
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-/* Contenedor del formulario */
 form {
-  background-color: #ffffff;
-  padding: 30px 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #fff3e0;
+  padding: 50px 60px;
+  border-radius: 30px 5px 30px 5px;
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.2);
   width: 400px;
+  border: 3px dashed #ffb347;
 }
 
 /* Título */
 h1 {
-  color: #333;
-  text-align: center;
+  color: #ff4d6d;
+  font-size: 28px;
+  margin-bottom: 25px;
 }
 
-/* Etiquetas */
-label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 10px;
-}
-
-/* Inputs */
+/* Input */
 input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #bbb;
-  border-radius: 5px;
-  font-size: 14px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
+  background-color: #fffde7;
+  border: 2px solid #fff176;
+  color: #6d4c41;
 }
 
-/* Botón */
+input[type="text"]:focus {
+  border: 2px solid #76ff03;
+  box-shadow: 0 0 10px #76ff03;
+}
+
+/* Botón estilo naranja */
 button {
-  width: 100%;
-  padding: 12px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  background: linear-gradient(135deg, #ffb347, #ff4d6d);
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #ff7043;
 }
 
-/* Texto en <p> en cursiva */
+/* Párrafo con violeta uva */
 p {
-  font-style: italic;
-  color: #555;
-  font-size: 15px;
-  margin: 10px 0;
-  text-align: center;
+  color: #9c27b0;
+  text-shadow: 0 0 4px rgba(156, 39, 176, 0.2);
 }
 
-/* Lista de frutas */
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 10px;
-  font-size: 15px;
-  color: #444;
-  text-align: center;
+/* Lista estilo cápsula de frutas */
+ul li {
+  background: #ffd54f;
+  color: #4e342e;
+  box-shadow: 0 3px 8px rgba(255, 183, 77, 0.3);
 }
