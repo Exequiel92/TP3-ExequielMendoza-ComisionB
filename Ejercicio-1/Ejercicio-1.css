@@ -1,10 +1,10 @@
 /* CSS GENERADO CON IA */
 
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap");
 
 body {
   background-color: #fff8e1;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Fredoka", sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -51,7 +51,7 @@ select {
   background-color: #fff;
   font-size: 16px;
   box-sizing: border-box;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Fredoka", sans-serif;
 }
 
 /* Select */
@@ -73,7 +73,7 @@ button {
   box-shadow: 0 6px 12px rgba(255, 111, 0, 0.3);
   cursor: pointer;
   transition: transform 0.2s, background-color 0.3s;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Fredoka", sans-serif;
 }
 
 button:hover {
