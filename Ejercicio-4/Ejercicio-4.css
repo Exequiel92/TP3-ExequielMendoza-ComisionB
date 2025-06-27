@@ -1,0 +1,55 @@
+/* CSS GENERADA CON IA */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  text-align: center;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  margin: 0 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Botón izquierdo: verde */
+.botonIzquierdo {
+  background-color: #28a745;
+  color: white;
+}
+
+.botonIzquierdo:hover:enabled {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Botón derecho: azul */
+.botonDerecho {
+  background-color: #007bff;
+  color: white;
+}
+
+.botonDerecho:hover:enabled {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Estilo para botones deshabilitados */
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
+}
