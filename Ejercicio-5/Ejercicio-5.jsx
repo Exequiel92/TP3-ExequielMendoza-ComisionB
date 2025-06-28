@@ -4,7 +4,9 @@ function Calculadora() {
   const [seleccionar, setSeleccionar] = React.useState("suma");
   const [resultado, setResultado] = React.useState(null);
 
-  const clickBoton = () => {
+  const esperar = (evento) => {
+    evento.preventDefault();
+
     let resultadoPreliminar;
     if (seleccionar === "suma") {
       resultadoPreliminar = primerNumero + segundoNumero;
@@ -21,41 +23,45 @@ function Calculadora() {
 
   return (
     <>
-      <p>Primer número</p>
-      <input
-        type="number"
-        value={primerNumero}
-        onChange={(evento) => setPrimerNumero(Number(evento.target.value))}
-      />
+      <form onSubmit={esperar}>
+        <label htmlFor="primerNumero">Primer número</label>
+        <input
+          type="number"
+          id="primerNumero"
+          value={primerNumero}
+          onChange={(evento) => setPrimerNumero(Number(evento.target.value))}
+        />
 
-      <p>Segundo número</p>
-      <input
-        type="number"
-        value={segundoNumero}
-        onChange={(evento) => setSegundoNumero(Number(evento.target.value))}
-      />
+        <label htmlFor="segundoNombre">Segundo número</label>
+        <input
+          type="number"
+          id="segundoNumero"
+          value={segundoNumero}
+          onChange={(evento) => setSegundoNumero(Number(evento.target.value))}
+        />
 
-      <p>Selecciona una operación</p>
-      <select
-        value={seleccionar}
-        onChange={(evento) => setSeleccionar(evento.target.value)}
-      >
-        <option value="suma">Sumar</option>
-        <option value="resta">Restar</option>
-        <option value="multiplicacion">Multiplicar</option>
-        <option value="division">Dividir</option>
-      </select>
-      <br />
-      <br />
+        <label>Selecciona una operación</label>
+        <select
+          value={seleccionar}
+          onChange={(evento) => setSeleccionar(evento.target.value)}
+        >
+          <option value="suma">Sumar</option>
+          <option value="resta">Restar</option>
+          <option value="multiplicacion">Multiplicar</option>
+          <option value="division">Dividir</option>
+        </select>
+        <br />
+        <br />
 
-      <button
-        onClick={clickBoton}
-        disabled={seleccionar === "division" && segundoNumero === 0}
-      >
-        Calcular
-      </button>
+        <button
+          type="submit"
+          disabled={seleccionar === "division" && segundoNumero === 0}
+        >
+          Calcular
+        </button>
 
-      <p>El resultado es: {resultado !== null ? resultado : ""}</p>
+        <p>El resultado es: {resultado !== null ? resultado : ""}</p>
+      </form>
     </>
   );
 }
